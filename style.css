@@ -235,11 +235,13 @@ img .weather h1 {
 
 .col div p:first-child {
   font-size: 18px;
+  font-weight: bold;
 }
-.details .col div:last-child {
+.details .col div p:last-child {
   font-size: 12px;
-  font-weight: 500;
+  font-weight: bold;
   text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .details .col .desc {
@@ -250,7 +252,8 @@ img .weather h1 {
   font-weight: 500;
 }
 .col i {
-  margin-right: 10px;
+  margin-right: 14px;
+  font-size: 20px;
 }
 
 .humidity,
