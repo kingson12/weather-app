@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h3 class="logo">skyPredict</h3>
+      <div class="menu">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="hero-text-search-box">
+        <div class="hero-body-text">
+          <h3 class="hero-text">
+            Discover the changing weather in
+            <span class="dynamic-text">Your City</span> stay informed and
+            prepared
+          </h3>
+          <p class="body-hero">
+            Enter your city to get the latest weather updates.
+          </p>
+        </div>
+        <div class="search">
+          <input
+            type="text"
+            placeholder="enter city name"
+            spellcheck="false"
+            class="search-input"
+          />
+          <button class="search-button">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="error">
+          <p>Please Enter a City Name!</p>
+        </div>
+
+        <div class="image-1">
+          <img src="/image/weather.png" />
+        </div>
+        <div class="weather">
+          <h2 class="city">New York</h2>
+          <img src="/image/clouds.svg" class="weather-icon" />
+
+          <h1 class="temp">22°C</h1>
+          <p class="weather-display">cloud</p>
+
+          <div class="two-details">
+            <div class="details">
+              <div class="col">
+                <i class="fa-solid fa-droplet"></i>
+                <div>
+                  <p class="humidity">50%</p>
+                  <p>humidity</p>
+                </div>
+              </div>
+
+              <div class="col">
+                <i class="fa-solid fa-wind"></i>
+                <div>
+                  <p class="wind">15km/h</p>
+                  <p>wind speed</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="details">
+              <div class="col">
+                <i class="fa-solid fa-calendar"></i>
+                <div>
+                  <p class="desc">date</p>
+                  <p>Today's Date</p>
+                </div>
+              </div>
+
+              <div class="col">
+                <i class="fa-solid fa-temperature-three-quarters"></i>
+                <div>
+                  <p class="pressure">15km/h</p>
+                  <p>Pressure</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      © 2025 Cool Weather Widget. All Rights Reserved | Designed By Emmanuel
+      Kingson
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
