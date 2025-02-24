@@ -342,6 +342,11 @@ footer {
     margin-top: 5px;
     padding: 5px 15px;
   }
+
+  .details .col .desc {
+    font-size: 10px;
+  }
+
   .card {
     margin-top: 50px;
     width: 80%;
