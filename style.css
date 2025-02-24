@@ -231,6 +231,7 @@ img .weather h1 {
   border-radius: 5px;
   padding: 20px;
   min-width: 170px;
+  height: 70px;
 }
 
 .col div p:first-child {
