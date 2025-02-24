@@ -320,16 +320,22 @@ footer {
     align-items: center;
     width: 100%;
     margin: 0 auto;
-    margin-right: 100px;
+    /* margin-right: 100px; */
   }
 
   .hero-text {
     text-align: center;
     width: 90%;
     font-size: 30px;
+    margin: 0 auto;
     /* margin-top: 400px; */
   }
 
+  .body-hero {
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px 15px;
+  }
   .card {
     margin-top: 50px;
     width: 80%;
@@ -339,6 +345,11 @@ footer {
     row-gap: 1rem;
   }
 
+  .search {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
   footer {
     width: 57%;
     margin: 0 auto;
@@ -357,11 +368,17 @@ footer {
   .hero-text-search-box {
     align-items: center;
     width: 100%;
+    margin: 0 auto;
+  }
+
+  .body-hero {
+    margin: 0 auto;
   }
 
   .hero-text {
     text-align: center;
     width: 90%;
+    margin: 0 auto;
   }
 
   .card {
